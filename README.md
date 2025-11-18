@@ -16,20 +16,20 @@ This is a simple React application built with Vite. It demonstrates basic routin
 
 # Build & Deployment
 
--The project uses Vite to build the React app (npm run build).
--Hosting is done via Firebase Hosting.
--CI/CD is configured using GitHub Actions, which automatically builds and deploys the app to Firebase Hosting on pushes to the 
+- The project uses Vite to build the React app (npm run build).
+- Hosting is done via Firebase Hosting.
+- CI/CD is configured using GitHub Actions, which automatically builds and deploys the app to Firebase Hosting on pushes to the 
     main branch.
--The workflow file .github/workflows/firebase-deploy.yml handles the automation.
+- The workflow file .github/workflows/firebase-deploy.yml handles the automation.
 
 # Live Demo
 
-View the live application here:
+- View the live application here:
 https://my-react-app-e3967.web.app
 
 # Technologies Used
-React 18
-Vite
-Firebase Hosting
-GitHub Actions (CI/CD)
-Node.js 20
+- React 18
+- Vite
+- Firebase Hosting
+- GitHub Actions (CI/CD)
+- Node.js 20
