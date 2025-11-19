@@ -22,6 +22,18 @@ This is a simple React application built with Vite. It demonstrates basic routin
     main branch.
 - The workflow file .github/workflows/firebase-deploy.yml handles the automation.
 
+## CI/CD Pipeline
+
+- The project uses **GitHub Actions** to automate the build and deployment process.
+- On every push to the `main` branch, the workflow triggers:
+  - Checkout of the code.
+  - Installation of dependencies.
+  - Building the React app using Vite.
+  - Deployment of the build output to **Firebase Hosting**.
+- The GitHub Actions workflow file is located at `.github/workflows/firebase-deploy.yml`.
+- Deployment uses a Firebase service account token stored securely in GitHub Secrets as `FIREBASE_SERVICE_ACCOUNT`.
+- This setup ensures that the latest code changes are automatically published to the live site without manual intervention.
+
 # Live Demo
 
 - View the live application here:
