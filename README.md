@@ -6,8 +6,9 @@ This is a simple React application built with Vite. It demonstrates basic routin
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/aadi090204/my-react-app.git
-   cd my-react-app
+    ```bash
+    git clone https://github.com/aadi090204/my-react-app.git
+    cd my-react-app
 2. Install dependencies:
     npm install
 3. Run the app locally:
