@@ -82,8 +82,9 @@ export default function Home() {
         <div className="card">
           <h3>Learning Roadmap</h3>
           <p style={{color:"rgba(230,238,248,0.82)"}}>
-            Focused on CI/CD, Docker, transformer-based ML, and production deployment workflows.
+            Aspiring DevOps engineer actively learning CI/CD, containerization, cloud deployment, and automation tools.
           </p>
+
         </div>
       </div>
     </section>
