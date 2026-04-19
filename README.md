@@ -24,7 +24,7 @@ It is a simple React application built with Vite, showcasing basic routing and c
 - Build output (`dist/`) is generated and deployed to Firebase Hosting.
 - CI/CD is configured using GitHub Actions, which automatically builds and deploys the app to Firebase Hosting on pushes to the 
     main branch.
-- The workflow file .github/workflows/firebase-deploy.yml handles the automation.
+- The workflow file `.github/workflows/firebase-deploy.yml` handles the automation.
 
 # CI/CD Pipeline
 
