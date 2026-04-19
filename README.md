@@ -1,6 +1,6 @@
 # My React App
 
-## Project Overview
+# Project Overview
 This project demonstrates an automated CI/CD pipeline using GitHub Actions for building and deploying a React application to Firebase Hosting.
 
 It is a simple React application built with Vite, showcasing basic routing and component structure.
